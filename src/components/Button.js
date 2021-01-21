@@ -1,7 +1,7 @@
 function Button(props) {
   return (
     <div>
-      <button onClick={() => { console.log("hello") }}>{props.name}</button>
+      <button onClick={() => props.handleButtonClick()}>{props.name}</button>
     </div>
   );
 }
